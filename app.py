@@ -21,4 +21,5 @@ def home_usuario(username):
 def ola_nome(nome = None):
     return render_template('ola.html', nome=nome) 
 
-if __name__ == "__main__"
+if __name__ == "__main__":
+    app.run(debug=False, port =500  ) # executar "flask run" no terminal
